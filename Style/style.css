@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+*{
+    margin: 0;
+}
+
+.font{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    background-color: black;
+}
+
+/* commom style */
+
+.d-flex{
+    display: flex;
+}
+
+.d-block{
+    display: grid;
+}
+
+.c-title{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.ctitle{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+}
+.cdesc{
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+}
+/* Header style */
+.head{
+    /* max-height: 715px; */
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+
+.Cursive{
+    font-family: 'Miama', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1px;
+}
+
+.title{
+    font-style: italic;
+    color: rgb(230, 83, 60);
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+
+.Nav-bar .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+ 
+.Nav-bar{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-link li{
+    list-style: none;
+    display: inline-block;
+    margin: 47px;
+}
+
+.nav-link li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.banner-title{
+    font-size: 4.8rem;
+}
+
+.banner-content{
+    max-width: 500px;
+}
+
+.Descrip{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn{
+    border:  1px solid #ffffff;
+    border-radius: 42px;
+    font-size: 1.25rem;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 16px 40px;
+    background-color: rgb(230, 83, 60);
+}
+
+.banner{
+    justify-content: space-around;
+}
+
+.img{
+    
+}
+.bt1{
+    background: none;
+}
+
+/* Webpage main style */
+
+.Gener{
+    gap: 80px;
+}
+
+.Gener-tilt{
+    max-width: 670px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Gener-imgs{
+    border-radius: 50%;
+}
