@@ -191,3 +191,28 @@
     justify-content: center;
     text-align: center;
 }
+
+/* Run an Extra mile */
+
+.extramile{
+    padding: 50px;
+    background: rgb(34, 34, 34);
+    gap: 165px;
+    justify-content: space-between;
+}
+
+.mile-title{
+    max-width: 540px;
+}
+
+.run-title{
+    font-size: 4rem;
+}
+
+.m-img{
+    width: 500px;
+}
+
+.m-img img{
+    width: 100%;
+}
