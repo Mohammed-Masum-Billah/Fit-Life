@@ -33,7 +33,6 @@
 .ctitle{
     font-size: 1.125rem;
     font-weight: 600;
-    text-align: center;
 }
 .cdesc{
     font-size: 0.8rem;
@@ -60,7 +59,7 @@
     font-weight: 800;
 }
 
-.Nav-bar .banner{
+.Nav-bar .banner .Gener-img{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -93,6 +92,7 @@
     font-size: 1rem;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
+    padding: 28px;
 }
 
 .btn{
@@ -110,12 +110,58 @@
 }
 
 .img{
-    
+    position: relative;
 }
 .bt1{
     background: none;
 }
 
+.banner-jpg{
+    position: absolute;
+    background:rgba(255, 255, 255, 0.1) ;
+    left: 1520px;
+    top: 250px;
+    padding: 17px 35px 20px 14px;
+    border-radius: 17px;
+}
+
+.jpg-font{
+    color: rgb(255, 255, 255);
+    font-family: 'Inter',sans-serif;
+    font-size: 2.8rem;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: right;
+}
+
+.jpgfont{
+    color: rgba(255, 255, 255, 0.65);
+    font-family: 'Inter',sans-serif;
+    font-size: .8rem;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: right;
+}
+
+.dot{
+    width: 25px;
+    height: 25px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+
+.banner-jpg-1{
+    background: rgba(48, 48, 48, 0.54);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 1150px;
+    top: 540px;
+    padding: 15px 18px;
+    border-radius: 12px;
+}
 /* Webpage main style */
 
 .Gener{
@@ -127,7 +173,21 @@
     margin: 0 auto;
     text-align: center;
 }
+.g-images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.gener-Desc{
+    padding: 58px 0px;
+}
 
 .Gener-imgs{
     border-radius: 50%;
+}
+
+.Gener-img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
