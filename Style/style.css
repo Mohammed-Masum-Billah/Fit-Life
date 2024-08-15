@@ -274,3 +274,38 @@ th{
 .btn-1{
     display: block;
 }
+
+.train-meet{
+    margin-top: 15px;
+    padding: 20px;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    background: rgb(34, 34, 34);
+    border-radius: 15px;
+}
+
+.meet-card{
+    position: relative;
+}
+
+.meet-card img{
+    border-radius: 15px;
+    width: 100%;
+    height: 350px;
+}
+
+.meet-intro{
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    padding: 5px;
+}
+
+.meet-img-title{
+    font-size: 1.25rem;
+}
+
+.meet-img-desc{
+    text-align: start;
+    background: rgb(0, 0, 0, 0.2)
+}
