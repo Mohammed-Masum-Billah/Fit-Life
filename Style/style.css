@@ -26,8 +26,9 @@
 
 .c-title{
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: 800;
     text-align: center;
+    line-height: .5;
 }
 
 .ctitle{
@@ -35,6 +36,7 @@
     font-weight: 600;
 }
 .cdesc{
+    color: #ffffff;
     font-size: 0.8rem;
     font-weight: 400;
     text-align: center;
@@ -215,4 +217,60 @@
 
 .m-img img{
     width: 100%;
+}
+
+/* BMI Calculator */
+
+.bmi-calculator{
+    background: rgb(0, 0, 0);
+}
+
+.bm-title{
+    text-align: center;
+    font-size: 3rem;
+}
+.table-title{
+    font-size: 2.75rem;
+}
+.table-tab{
+    background: rgb(34, 34, 34);
+    justify-content: space-evenly;
+}
+.table-design{
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.form-desin{
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+.form-desin input{
+    background: rgba(255, 255, 255, 0.1);
+    width: 40%;
+    margin: 3px 0px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.form-select{
+    background: rgba(255, 255, 255, 0.1);
+    width: 43%;
+    border-radius: 3px;
+    padding: 5px;
+}
+.Select-form{
+    background: rgba(255, 255, 255, 0.1);
+    width: 87%;
+    margin: 5px 0px;
+    border-radius: 3px;
+    padding: 5px;
+}
+.btn-1{
+    display: block;
 }
