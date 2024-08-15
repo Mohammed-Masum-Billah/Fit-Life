@@ -309,3 +309,67 @@ th{
     text-align: start;
     background: rgb(0, 0, 0, 0.2)
 }
+
+.own-part{
+    justify-content: space-around;
+    gap:50px;
+}
+
+.fact-tilt{
+    font-size: 2.75rem;
+}
+.fact{
+    max-width: 540px;
+    padding: 50px 30px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.fact-card{
+    padding: 10px 0;
+}
+
+.fact-free-img{
+    position: absolute;
+    width: 500px;
+}
+
+footer{
+    margin-top: 30px;
+    background: rgb(34, 34, 34);
+
+}
+
+.feet-head{
+    justify-content: space-around;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.feet-tilt{
+    padding: 20px 0;
+}
+
+.feet-tilt h3{
+    font-size: 4rem;
+    color: #E6533C;
+    font-style: italic;
+}
+
+.feet-tilt h4{
+    font-size: 1.25rem;
+}
+
+.feet-tilt li{
+    list-style: none;
+}
+
+.feet-i{
+    padding: 25px 0px;
+}
+.feet-list{
+    padding-top: 10px;
+}
+
+.feet-end{
+    padding: 15px;
+    text-align: center;
+}
