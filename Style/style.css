@@ -147,6 +147,21 @@
     text-align: right;
 }
 
+.lines{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    top: 55px;
+    right: 30px;
+}
+
+.wire{
+    width: 20px;
+    margin: 4px 4px;
+    background-color: white;
+    height: 3px;
+}
+
 .dot{
     width: 25px;
     height: 25px;

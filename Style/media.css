@@ -8,6 +8,10 @@
         flex-direction: column;
     }
 
+    .lines{
+        display: block;
+    }
+
     .nav-link ul li{
         display: none;
     }
@@ -32,6 +36,10 @@
         flex-direction: column;
     }
 
+    .m-img img{
+        width: 100%;
+    }
+
     .table-tab{
         flex-direction: column;
         align-items: center;
@@ -50,6 +58,5 @@
     }
     .feet-head{
         flex-direction: column;
-        align-items: center;
     }
 }
