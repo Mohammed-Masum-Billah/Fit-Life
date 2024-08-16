@@ -90,6 +90,13 @@
     max-width: 500px;
 }
 
+.fixed-hover{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 46px;
+    background-color: rgb(230, 83, 60);
+}
+
 .Descrip{
     font-size: 1rem;
     font-weight: 400;
@@ -219,19 +226,21 @@
 }
 
 .mile-title{
-    max-width: 540px;
+    max-width: 500px;
 }
 
 .run-title{
-    font-size: 4rem;
+    font-size: 3rem;
+    padding: 0;
 }
 
 .m-img{
-    width: 500px;
+    width: 540px;
 }
 
 .m-img img{
     width: 100%;
+    border-radius: 20px;
 }
 
 /* BMI Calculator */
