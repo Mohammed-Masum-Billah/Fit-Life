@@ -1,11 +1,55 @@
-@media screen & (max-width: 576px) {
-    .Nav-bar,.banner,.extramile.tabletab,.feet-head{
-        flex-direction:column;
+@media screen and (max-width: 576px) {
+    nav, .Nav-bar, .banner, .extramile, .table-tab, .own-part, .feet-head{
+        padding: 0 20px;
     }
 
-    .Nav-bar{
+    .banner{
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .nav-link ul li{
         display: none;
-        
     }
 
+    .banner-jpg{
+        left: 180px;
+        top: 90px;
+    }
+    .banner-jpg-1{
+        left: 10px;
+        top: 235px;
+    }
+    .banner-img{
+        position: relative;
+    }
+    
+    .g-images{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .extramile{
+        flex-direction: column;
+    }
+
+    .table-tab{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    table{
+        width: 100%;
+    }
+
+    .train-meet{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .own-part{
+        flex-direction: column;
+    }
+    .feet-head{
+        flex-direction: column;
+        align-items: center;
+    }
 }
