@@ -223,19 +223,20 @@
     background: rgb(34, 34, 34);
     gap: 165px;
     justify-content: space-between;
+    line-height: 1.5;
 }
 
 .mile-title{
-    max-width: 500px;
+    max-width: 540px;
 }
 
 .run-title{
     font-size: 3rem;
-    padding: 0;
+    margin: 0;
 }
 
 .m-img{
-    width: 540px;
+    width: 500px;
 }
 
 .m-img img{
