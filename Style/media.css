@@ -1,4 +1,11 @@
 @media screen & (max-width: 576px) {
-    
+    .Nav-bar,.banner,.extramile.tabletab,.feet-head{
+        flex-direction:column;
+    }
+
+    .Nav-bar{
+        display: none;
+        
+    }
 
 }

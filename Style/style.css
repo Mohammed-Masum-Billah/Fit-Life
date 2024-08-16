@@ -311,8 +311,9 @@ th{
 }
 
 .own-part{
-    justify-content: space-around;
+    justify-content: space-between;
     gap:50px;
+    align-items: center;
 }
 
 .fact-tilt{
@@ -321,7 +322,12 @@ th{
 .fact{
     max-width: 540px;
     padding: 50px 30px;
-    background: rgba(255, 255, 255, 0.1);
+}
+
+.fact-ita{
+    font-size: 1.1rem;
+    font-style: italic;
+    font-family: 'Miama', sans-serif;
 }
 
 .fact-card{
@@ -329,9 +335,13 @@ th{
 }
 
 .fact-free-img{
-    position: absolute;
-    width: 500px;
+    width: 600px;
 }
+
+.fact-free-img img{
+    width: 100%;
+}
+
 
 footer{
     margin-top: 30px;
